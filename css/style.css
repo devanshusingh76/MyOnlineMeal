@@ -252,3 +252,28 @@ footer{
 .centre{
     text-align: center;
 }
+
+@media (max-width: 556px)
+{
+    #clients .client-item img{
+        height: 7rem;
+        
+    }
+}
+
+@media (max-width:1576px)
+{
+    #clients .client-item img{
+        height: 8rem;
+    }
+
+    #client-section::before{
+        content: "";
+        position: absolute;
+        background: url('../orange-6518675_1920.jpg')no-repeat center center/cover;
+        height: 41%;
+        width: 99%;
+        z-index: -1;
+        opacity: 40%;
+    }
+}
